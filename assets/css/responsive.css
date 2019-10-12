@@ -1,0 +1,113 @@
+/*mobile*/
+@media only screen and (max-width: 767px) { 
+.login_left {
+    flex: 0 0 100%;
+    padding: 0px 20px;
+}
+.login_topbar {
+    display: block;
+}
+.login_topbar_cont {
+    margin-bottom: 10px;
+}
+
+.login_topbar_phone {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.login_topbar_logo {
+    margin-bottom: 12px;
+     margin-left: 0px;
+}
+.right_arrow_btn {
+    display: none;
+}
+.login_area {
+    display: block;
+}
+.login_right {
+    width: 100%;
+}
+.login_right_cont_area {
+    position: static;
+    transform: translateY(0);
+    padding: 60px 20px;
+}
+.login_right_cont {
+    font-size: 27px;
+}
+.login_title {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.login_group input, .recover_password_area input[type="email"] {
+    font-size: 14px;
+}
+.login_form_area {
+    width: 100%;
+}
+.login_social {
+    justify-content: center;
+}
+.social_item {
+    width: 132px;
+}
+
+
+
+}
+
+
+/* ipad Tablet Layout: 768px._________________________________________________________________________________________________ */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.login_topbar_phone img {
+    width: 28px;
+    height: 31px;
+}
+.login_topbar_logo img {
+    width: 85px;
+}
+.login_title {
+    font-size: 28px;
+}
+.login_title_area {
+    margin-bottom: 20px;
+}
+.login_group input, .recover_password_area input[type="email"] {
+    width: 100%;
+    padding: 6px 10px;
+}
+.login_right_cont {
+    font-size: 28px;
+}
+.login_left_top_btn_fp {
+    position: static;
+    margin: 10px auto;
+    text-align: center;
+}
+.recover_password_area input[type="email"] {
+    margin-bottom: 12px;
+}
+.recover_password_area {
+    width: 314px;
+}
+.recover_password_title {
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+
+
+}
+
+
+/* Medium Layout: 1280px.__________________________________________________________________________________________________ */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
